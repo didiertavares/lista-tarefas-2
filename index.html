@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de tarefas (cf. LMS video)</title>
+</head>
+<body>
+    <h1>LISTA DE TAREFAS</h1>
+    <ul id="lista">
+        <li>pagar IPTU</li>
+        <li>estudar JS</li>
+        <li>criar projeto ToDo List</li>
+    </ul>
+    <button onclick="AdicionarTarefa()">Qual nova tarefa você quer registrar?</button>
+    <input type="text"></input>
+    <script>
+        let conteudoNovaTarefa = document.querySelector("input").innertext
+        const novaPosicaoLi = document.createElement("li")
+        const textoNovaPosicao = document.createTextNode(conteudoNovaTarefa)
+        const listaTarefas = [];
+        
+                document.getElementById("lista").appendChild(listaTarefas)
+        function AdicionarTarefa()  {
+            listaTarefas.push(Novatarefa)
+            console.log[listaTarefas]]
+        }
+
+
+
+    </script>
+</body>
+</html>
